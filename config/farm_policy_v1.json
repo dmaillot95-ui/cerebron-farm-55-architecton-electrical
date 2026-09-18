@@ -1,0 +1,11 @@
+{
+  "farm_id": 55,
+  "name": "ARCHITECTON ELECTRICAL Ω",
+  "domain": "electrical-engineering",
+  "status": "SCAFFOLDED",
+  "evidence_rules": [
+    "CLAIM <= EVIDENCE",
+    "SIMULATION != TEST",
+    "CIRCUIT SOLUTION != HARDWARE VALIDATION"
+  ]
+}
