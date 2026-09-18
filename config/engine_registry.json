@@ -1,0 +1,37 @@
+{
+  "version": "1.0",
+  "engines": [
+    {
+      "engine_id": "PY-ELECTRICAL-MVP",
+      "name": "Deterministic DC circuit sanity engine",
+      "category": "electrical-calculation",
+      "version": "stdlib",
+      "capabilities": [
+        "Ohm law",
+        "series circuit",
+        "power balance"
+      ],
+      "limitations": [
+        "not SPICE",
+        "DC sanity only",
+        "not hardware test"
+      ],
+      "validation_status": "MVP",
+      "benchmark_status": "PENDING"
+    },
+    {
+      "engine_id": "NGSPICE",
+      "name": "ngspice",
+      "category": "circuit-simulation",
+      "version": "UNKNOWN",
+      "capabilities": [
+        "SPICE circuit simulation"
+      ],
+      "limitations": [
+        "availability not verified"
+      ],
+      "validation_status": "UNKNOWN",
+      "benchmark_status": "PENDING"
+    }
+  ]
+}
